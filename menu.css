@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.menu{
+    padding: 8px;
+    background-color: black;
+    display: block;
+    position: fixed;
+    width: 100vw;
+    height: 4vh;
+}
+.btn-menu{
+    margin-right: 8vw;
+    background-color: black;
+    color: antiquewhite;
+    border: 1px solid black;
+}
+.navbar{
+    left: -200vw;
+    position: absolute;
+    top: 6.2vh;
+    width: 15vw;
+    height: 17vh;
+    background-color: black;
+    color: antiquewhite;
+    transition: 200ms;
+    cursor: pointer;
+}
+.navbar a:visited{
+    text-decoration: none;
+    background-color: black;
+    color: antiquewhite;
+}
+.navbar_ativo{
+    left: 0;
+    transition: 200ms;
+}
+.menu_itens{
+    list-style: none;
+    text-decoration: none;
+}
